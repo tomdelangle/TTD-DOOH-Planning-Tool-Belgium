@@ -61,8 +61,8 @@ let adTypeCheckboxes = document.querySelectorAll('.checkbox');
 
 let leafletMap = L.map("map", { zoomControl: false }).setView(
   // init map
-  [51.25345568244454, 7.086832622789005],
-  6
+  [50.5503, 3.55001],
+  8
 );
 
 let mapLayer = L.tileLayer(
